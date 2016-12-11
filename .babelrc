@@ -1,5 +1,0 @@
-{
-  "presets": ["latest"],
-  "sourceMaps": true,
-  "sourceRoot": "es2015"
-}
