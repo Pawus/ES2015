@@ -1,6 +1,5 @@
 export class Iterable {
     constructor(iteratorFactory) {
-
     }
 }
 
@@ -19,7 +18,5 @@ export class IteratorResult {
  * S'aider de la fonction Object.keys
  */
 export function toIterable(obj) {
-   	return {function (){
-    		return {value : obj, done: false}
-        }
+   
 }

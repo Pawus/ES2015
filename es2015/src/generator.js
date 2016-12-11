@@ -1,4 +1,4 @@
-+import 'babel-polyfill';
+import 'babel-polyfill';
 
 /**
  * Même exercice que pour iterator
@@ -13,8 +13,7 @@ export function toIterable(obj) {
  * sous forme d'iterator grâce au mot clé yield
  */
 export function *sequence(...funcs) {
-	for(f in funcs)
-		yield f;
+
 }
 
 /**
